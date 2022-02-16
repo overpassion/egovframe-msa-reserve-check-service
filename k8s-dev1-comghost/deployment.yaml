@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: reserve-check-service
-          image: egovframe/egovframe-msa-backend-reserve-check-service:k8s # TODO
+          image: overpassion/egovframe-msa-backend-reserve-check-service:k8s # TODO
           imagePullPolicy: Always
           ports:
             - containerPort: 80
